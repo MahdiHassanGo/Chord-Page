@@ -3,14 +3,13 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
     background-color: black;
     color: white;
+    min-height: 100vh;
 }
 
 .banner {
-    height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)), url("./images/background.jpg");
     background-repeat: no-repeat;
@@ -18,13 +17,16 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px;
 }
 
 .content {
     text-align: center;
     color: white;
-    padding: 20px; /* Added padding for better spacing */
+    max-width: 800px; /* Set a maximum width */
+    width: 100%;
+    padding: 20px;
 }
 
 #chords {
