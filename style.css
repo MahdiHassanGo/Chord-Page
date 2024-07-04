@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.banner {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)), url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+#chords {
+    font-size: smaller;
+    background-color: beige;
+    color: black;
+    width: 40px;
+    display: inline-block;
+}
+
+h4 {
+    background-color: beige;
+    color: black;
+    margin: 0;
+}
+
+.lyrics {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.chords-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chord-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ChordPic {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ChordPic img {
+    width: 100px;
+    height: auto;
+    border: 1px solid gray;
+}
